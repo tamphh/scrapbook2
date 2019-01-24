@@ -1,21 +1,32 @@
 # Git scrapbook
+### Show git information (commit, difference,...)
 
-```
+```sh
 # show  file lists changed been modified between 2 branches
 git diff --name-status DEVELOPMENT...feature/2420_part2
 ```
 
 
-```
+```sh
 # show commit difference between 2 branches
 git log master..DEVELOPMENT 
 ```
 
-```
+```sh
 git log --decorate --graph
 git reflog
 ```
 
+
+```sh
+# show commits infos (list all)
+git log -p commit_hash
+```
+
+```sh
+# show infos for a specific commit (only one)
+git log -p commit_hash -1
+```
 ### git-crypt (gitcrypt)
 
 usage:
