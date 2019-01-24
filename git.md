@@ -13,6 +13,7 @@ git log master..DEVELOPMENT
 ```
 
 ```sh
+# show graph log
 git log --decorate --graph
 git reflog
 ```
